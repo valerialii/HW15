@@ -1,67 +1,9 @@
 *,
 *:before,
-*:after{
-    box-sizing: border-box;
+*:after {
+  box-sizing: border-box;
 }
-body{
-    background: $backgroundColor;
-    color: #3c3c3c;
-}
-main{
-    display: flex;
-    width: 1000px;
-    height: calc(100vh - 100px);
-    background: #AAA94C;
-    margin: auto;
-    @include media('<=1000px') {
-        flex-direction: column;
-        width: 100%;
-        padding: 0 20px;
-    }
-    
-}
-.sidebar{
-    width: 400px;
-    background: #1C5EEC;
-    
-    p{
-        font-size: $font-small;
-        color:#000;
-    }
-    @include media('<=1000px') {
-        width: 100%;
-    }
-    @include media('<=640px') {
-        p{
-            font-size: $font-lg;
-        }
-    }
-}
-.data{
-    width: 600px;
-    background: #AA8A4C;
-    p{
-        font-size: $font-medium;
-    }
-    @include media('<=1000px') {
-        width: 100%;
-    }
-    @include media('<=500px') {
-        p{
-            font-size: $font-lg;
-        }
-    }
-    
-}
-
-
-.clearfix{
-    &:after{
-        content:'';
-        clear: both;
-        display: block;
-    }
-}
-.someBackground{
-    background: green;
+body {
+  background: $backgroundColor;
+  color: #3c3c3c;
 }

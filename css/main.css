@@ -132,5 +132,282 @@ table {
   box-sizing: border-box; }
 
 body {
-  background: #FFAA05;
-  color: #3c3c3c; }
+  background: linear-gradient(to bottom, #9dc0f2 0%, #020102 100%);
+  height: 100vh;
+  color: #fff; }
+
+.main-wrapper {
+  width: 1200px;
+  margin: auto; }
+
+.data {
+  width: 658px;
+  float: right;
+  margin-top: 117px; }
+
+.login {
+  float: left; }
+
+.profile {
+  float: right; }
+
+.sidebar {
+  width: 658px;
+  float: right;
+  margin-top: 191px; }
+
+.download {
+  float: left; }
+
+.location {
+  float: right; }
+
+.data {
+  width: 658px;
+  float: right;
+  margin-top: 117px; }
+
+.login {
+  float: left;
+  position: relative;
+  width: 300px;
+  height: 327px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0 0 7px 7px;
+  border: 1px solid #acc2e0; }
+
+.login span {
+  position: absolute;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  background: #6a92d6;
+  border-radius: 7px 7px 0 0;
+  border-bottom: 1px solid #5368a6;
+  border-top: 1px solid #97bfe8;
+  padding-top: 22px;
+  padding-bottom: 16px;
+  padding-left: 116px;
+  padding-right: 117px;
+  margin-top: -61px;
+  margin-left: -1px; }
+
+.btn-first {
+  width: 249px;
+  height: 60px;
+  border-radius: 7px;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.4);
+  font-family: "Montserrat", sans-serif;
+  color: #8f5757;
+  border: none;
+  border-top: 1px solid #ccd9ed;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-top: 23px; }
+
+.btn-second {
+  width: 249px;
+  height: 60px;
+  border-radius: 7px;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.4);
+  font-family: "Montserrat", sans-serif;
+  color: #8f5757;
+  border: none;
+  border-top: 1px solid #ccd9ed;
+  margin-top: 10px;
+  margin-left: 25px;
+  background: #678bcb;
+  color: #711212;
+  border-top: 1px solid #93bbe2; }
+
+.btn-third {
+  width: 249px;
+  height: 60px;
+  border-radius: 7px;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.4);
+  font-family: "Montserrat", sans-serif;
+  color: #8f5757;
+  border: none;
+  border-top: 1px solid #ccd9ed;
+  margin-top: 10px;
+  margin-left: 25px;
+  background: #74aed7;
+  color: #e3f73a;
+  border-top: 1px solid #a5d0e9; }
+
+.btn-fourth {
+  width: 249px;
+  height: 60px;
+  border-radius: 7px;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.4);
+  font-family: "Montserrat", sans-serif;
+  color: #8f5757;
+  border: none;
+  border-top: 1px solid #ccd9ed;
+  margin-top: 10px;
+  margin-left: 25px;
+  background: #64a88e;
+  color: #fff;
+  border-top: 1px solid #8fccbd; }
+
+.profile {
+  float: right;
+  position: relative;
+  width: 300px;
+  height: 327px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0 0 7px 7px;
+  border: 1px solid #acc2e0; }
+
+.profile span {
+  position: absolute;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  background: #6a92d6;
+  border-radius: 7px 7px 0 0;
+  border-bottom: 1px solid #5368a6;
+  border-top: 1px solid #97bfe8;
+  padding-top: 22px;
+  padding-bottom: 16px;
+  padding-left: 116px;
+  padding-right: 117px;
+  margin-top: -61px;
+  margin-left: -1px;
+  background: #9c9077;
+  padding-right: 93px;
+  border-bottom: 1px solid #5368a6; }
+
+.small-btn-first {
+  width: 174px;
+  height: 42px;
+  border-radius: 5px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.4);
+  font-family: "Montserrat", sans-serif;
+  color: #8f5757;
+  border: none;
+  border-top: 1px solid #ccd9ed;
+  margin-left: 60px;
+  margin-top: 7px;
+  margin-top: 25px; }
+
+.small-btn-second {
+  width: 174px;
+  height: 42px;
+  border-radius: 5px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.4);
+  font-family: "Montserrat", sans-serif;
+  color: #8f5757;
+  border: none;
+  border-top: 1px solid #ccd9ed;
+  margin-left: 60px;
+  margin-top: 7px;
+  background: #678bcb;
+  color: #711212;
+  border-top: 1px solid #93bbe2; }
+
+.small-btn-third {
+  width: 174px;
+  height: 42px;
+  border-radius: 5px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.4);
+  font-family: "Montserrat", sans-serif;
+  color: #8f5757;
+  border: none;
+  border-top: 1px solid #ccd9ed;
+  margin-left: 60px;
+  margin-top: 7px;
+  background: #74aed7;
+  color: #e3f73a;
+  border-top: 1px solid #a5d0e9; }
+
+.small-btn-fourth {
+  width: 174px;
+  height: 42px;
+  border-radius: 5px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.4);
+  font-family: "Montserrat", sans-serif;
+  color: #8f5757;
+  border: none;
+  border-top: 1px solid #ccd9ed;
+  margin-left: 60px;
+  margin-top: 7px;
+  background: #64a88e;
+  color: #fff;
+  border-top: 1px solid #8fccbd; }
+
+.sidebar {
+  width: 658px;
+  float: right;
+  margin-top: 191px; }
+
+.download {
+  float: left;
+  position: relative;
+  width: 300px;
+  height: 327px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0 0 7px 7px;
+  border: 1px solid #acc2e0;
+  border: 1px solid #52667e; }
+
+.download span {
+  position: absolute;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  background: #6a92d6;
+  border-radius: 7px 7px 0 0;
+  border-bottom: 1px solid #5368a6;
+  border-top: 1px solid #97bfe8;
+  padding-top: 22px;
+  padding-bottom: 16px;
+  padding-left: 116px;
+  padding-right: 117px;
+  margin-top: -61px;
+  margin-left: -1px;
+  padding-left: 90px;
+  padding-right: 78px;
+  background: #4d8f71;
+  border-top: 1px solid #6dbda2;
+  border-bottom: 1px solid #303d70; }
+
+.location {
+  float: right;
+  position: relative;
+  width: 300px;
+  height: 327px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0 0 7px 7px;
+  border: 1px solid #acc2e0;
+  border: 1px solid #52647e;
+  height: 83px; }
+
+.location span {
+  position: absolute;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  background: #6a92d6;
+  border-radius: 7px 7px 0 0;
+  border-bottom: 1px solid #5368a6;
+  border-top: 1px solid #97bfe8;
+  padding-top: 22px;
+  padding-bottom: 16px;
+  padding-left: 116px;
+  padding-right: 117px;
+  margin-top: -61px;
+  margin-left: -1px;
+  padding-left: 101px;
+  padding-right: 91px;
+  background: #a6a176;
+  border-top: 1px solid #cbc8a8;
+  border-bottom: 1px solid #303d70; }

@@ -1,0 +1,32 @@
+.sidebar {
+  width: 658px;
+  float: right;
+  margin-top: 191px;
+}
+.download {
+  float: left;
+  @include block;
+  border: 1px solid #52667e;
+}
+.download span {
+  @include title;
+  padding-left: 90px;
+  padding-right: 78px;
+  background: #4d8f71;
+  border-top: 1px solid #6dbda2;
+  border-bottom: 1px solid #303d70;
+}
+.location {
+  float: right;
+  @include block;
+  border: 1px solid #52647e;
+  height: 83px;
+}
+.location span {
+  @include title;
+  padding-left: 101px;
+  padding-right: 91px;
+  background: #a6a176;
+  border-top: 1px solid #cbc8a8;
+  border-bottom: 1px solid #303d70;
+}

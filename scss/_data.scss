@@ -1,0 +1,66 @@
+.data {
+  width: 658px;
+  float: right;
+  margin-top: 117px;
+}
+.login {
+  float: left;
+  @include block;
+}
+.login span {
+  @include title;
+}
+.btn-first {
+  @include btn;
+  margin-top: 23px;
+}
+.btn-second {
+  @include btn;
+  background: #678bcb;
+  color: #711212;
+  border-top: 1px solid #93bbe2;
+}
+.btn-third {
+  @include btn;
+  background: #74aed7;
+  color: #e3f73a;
+  border-top: 1px solid #a5d0e9;
+}
+.btn-fourth {
+  @include btn;
+  background: #64a88e;
+  color: #fff;
+  border-top: 1px solid #8fccbd;
+}
+.profile {
+  float: right;
+  @include block;
+}
+.profile span {
+  @include title;
+  background: #9c9077;
+  padding-right: 93px;
+  border-bottom: 1px solid #5368a6;
+}
+.small-btn-first {
+  @include small-btn;
+  margin-top: 25px;
+}
+.small-btn-second {
+  @include small-btn;
+  background: #678bcb;
+  color: #711212;
+  border-top: 1px solid #93bbe2;
+}
+.small-btn-third {
+  @include small-btn;
+  background: #74aed7;
+  color: #e3f73a;
+  border-top: 1px solid #a5d0e9;
+}
+.small-btn-fourth {
+  @include small-btn;
+  background: #64a88e;
+  color: #fff;
+  border-top: 1px solid #8fccbd;
+}
